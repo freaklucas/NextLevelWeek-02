@@ -11,7 +11,6 @@ interface PageHeaderProps {
     title: string;
 }
 
-
 const PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
     return (
         <header className="page-header">
